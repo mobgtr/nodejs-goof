@@ -5,7 +5,7 @@ jobs:
   zap_scan:
     runs-on: ubuntu-latest
     steps:
-     - name: ZAP Scan
+     - name: ZAP Scan2
        uses: zaproxy/action-baseline@v0.7.0
        with:
          target: 'https://www.zaproxy.org'
